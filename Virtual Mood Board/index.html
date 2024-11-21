@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Mood Board</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Virtual Mood Board</h1>
+        <div class="row">
+            <!-- Board Area -->
+            <div class="col-md-8 board bg-light p-4">
+                <h5 class="text-center">Drag and drop images here</h5>
+                <div class="row mt-4">
+                    <div class="col-6 mb-3">
+                        <div class="board-item"></div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <div class="board-item"></div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <div class="board-item"></div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <div class="board-item"></div>
+                    </div>
+                </div>
+                <div class="col-6 mb-3">
+                    <div class="board-item"></div>
+                </div>
+                <div class="col-6 mb-3">
+                    <div class="board-item"></div>
+                </div>
+                
+            </div>
+            <!-- Sidebar with images -->
+            <div class="col-md-4 sidebar p-4">
+                <h5>Available Images</h5>
+                <div class="image-thumb mb-3">
+                    <img src="images/2.jpg" class="img-fluid draggable" alt="Image 1">
+                </div>
+                <div class="image-thumb mb-3">
+                    <img src="images/3.jpg" class="img-fluid draggable" alt="Image 2">
+                </div>
+                <div class="image-thumb mb-3">
+                    <img src="images/baby.jpeg" class="img-fluid draggable" alt="Image 3">
+                </div>
+                <div class="image-thumb mb-3">
+                    <img src="images/person-06.jpg" class="img-fluid draggable" alt="Image 4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

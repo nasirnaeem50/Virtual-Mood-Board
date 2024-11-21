@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.board {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    min-height: 400px;
+    padding: 10px;
+}
+
+.board-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    min-height: 150px; 
+}
+
+.board-item img {
+    width: 100%;
+    height: auto;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.image-thumb {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image-thumb img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.image-thumb img:hover {
+    transform: scale(1.05);
+}
